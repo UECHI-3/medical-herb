@@ -1,0 +1,115 @@
+/* メディアクエリ：タブレット（960pxm未満の場合） */
+@media screen and (max-width: 959px) {}
+
+/* メディアクエリ：スマホ（576px未満の場合） */
+@media screen and (max-width: 576px) {}
+
+/* --------------------------
+  全体構造
+---------------------------*/
+.content {
+  display: block;
+  width: auto;
+  margin: 0 auto 60px auto;
+}
+
+/* --------------------------
+  ヘッダー
+---------------------------*/
+header .inner {
+  width: auto;
+  display: block;
+  /* H1のマージン飛び出し対 */
+  overflow: hidden;
+}
+
+header h1 {
+  margin: 30px 0 0 20px;
+
+}
+
+header .pc-nav {
+  display: none;
+}
+
+/* ハンバーガーメニュー */
+.hamburger-button path {
+  fill: #000;
+}
+
+.hamburger-button {
+  display: flex;
+  top: 60px;
+  right: 10px;
+
+}
+
+/* アイコン */
+.hamburger-button svg {
+  height: 25px;
+  width: 25px;
+}
+
+/* ナビゲーション */
+.hamburger-nav {
+  height: 100vh;
+  width: 100%;
+  /* background-color: rgba(255, green255, blue255, .7); */
+}
+
+.hamburger-nav ul {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hamburger-nav il {
+  margin: 20px 0;
+}
+
+
+/* --------------------------
+メイン
+---------------------------*/
+main {
+  width: auto;
+  /* margin-bottom: 60px; */
+}
+
+
+/* --------------------------
+サイド
+---------------------------*/
+aside {
+  margin: 0 auto;
+}
+
+
+/* --------------------------
+フッター
+---------------------------*/
+footer p br {
+  display: inline;
+}
+
+
+/* --------------------------
+トップページ
+---------------------------*/
+#home main .main-image {
+  max-width: 100%;
+}
+
+#home main h2 {
+  margin: 0 10px 20px 10px;
+}
+
+#home main p {
+  margin: 0 10px 20px 10px;
+  margin-bottom: 20px;
+}
+
+*/

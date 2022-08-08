@@ -1,0 +1,720 @@
+body {
+  padding-top: 170px;
+  font-family: "游明朝", "Yu Mincho";
+  font-size: 15px;
+  color: #000;
+}
+
+h1 {
+  font-family: 'EB Garamond', serif;
+  font-size: 90px;
+}
+
+H2 {
+  font-family: 'EB Garamond', serif;
+  font-size: 68px;
+}
+
+h3 {
+  font-size: 52px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+a {
+  color: g;
+}
+
+a:hover {
+  color: rgba(255, 255, 255, 1);
+  transition: 0.8s;
+}
+
+/* ヘッダー */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+header nav {
+  width: 1340px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 180px;
+  background-image: url(../images/nav-img.png);
+  background-repeat: no-repeat;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 193px;
+  width: 954px;
+
+}
+
+header li {
+  font-size: 18px;
+}
+
+header a {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: auto;
+  height: 110px;
+
+}
+
+header a:hover i {
+  color: rgba(255, 255, 255, 1);
+  transition: 1s;
+}
+
+header i {
+  font-size: 25px;
+  margin-bottom: 8px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0);
+}
+
+header .pieces i {
+  color: rgba(163, 168, 168, 1);
+}
+
+ul .logo {
+  padding-top: 20px;
+}
+
+/* SNSリンク */
+.sns {
+  font-size: 30px;
+  color: rgba(194, 194, 194, 1);
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.sns a:hover i {
+  color: rgba(255, 255, 255, 1);
+  transition: 0.8s;
+}
+
+
+/* トップに戻る */
+.top-back {
+  /* width: 954px; */
+  margin-left: 300px;
+
+  position: fixed;
+  left: 65%;
+  bottom: 0;
+
+
+}
+
+
+/* フッター */
+footer {
+  width: 1340px;
+  height: 410px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../images/footer-img.png);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-bottom: 30px;
+
+
+}
+
+.footer-nav {
+  line-height: 1.5;
+  font-size: 18px;
+  margin-bottom: 70px;
+  margin-left: 193px;
+}
+
+.copyright {
+  padding-left: 193px;
+}
+
+.company {
+  margin-right: 175px;
+  margin-bottom: 10px;
+
+
+}
+
+
+.company img {
+  width: 90px;
+  height: 90px;
+
+}
+
+.footer-mark {
+  width: 375px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ad-box {
+  width: 375px;
+  font-size: 18px;
+  text-align: right;
+  letter-spacing: 1.8px;
+  line-height: 1.5;
+  margin-top: 10px;
+
+
+}
+
+
+
+/* ホームトップページ */
+.home-top {
+  width: 1341px;
+  margin: 0 auto;
+  height: 660px;
+  margin-bottom: 110px;
+  background-image: url(../images/top-img-3.png);
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.home-top .top4 {
+  width: 877px;
+  height: 530px;
+  position: absolute;
+  top: 8%;
+  left: 15%;
+
+}
+
+
+.home-main .top1 {
+  width: 877px;
+  height: 588px;
+  position: absolute;
+  top: 11.5%;
+  left: 15%;
+
+}
+
+.bx-wrapper {
+  box-shadow: none;
+  border: none;
+  left: 0;
+  background-color: transparent;
+  margin: 0 auto;
+}
+
+
+
+.home-sub h1 {
+
+
+  padding-top: 130px;
+  margin-left: 120px;
+
+}
+
+.home-sub {
+  width: 954px;
+  height: 620px;
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.top1-sub {
+  line-height: 620px;
+}
+
+/* おすすめメニュー */
+.content {
+  background-color: #E0FFFF;
+}
+
+.content2 {
+  width: 954px;
+  margin: 0 auto;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+}
+
+.content h2 {
+  margin-bottom: 50px;
+}
+
+.content h2 span {
+  display: inline-block;
+  width: 150px;
+  border-bottom: 1px solid #000;
+  transform: rotate(315deg);
+  margin-left: -100px;
+  margin-bottom: 30px;
+
+}
+
+.rec-menu {
+  display: flex;
+  justify-content: center;
+}
+
+.rec-menu img {
+  margin-bottom: 10px;
+
+}
+
+.rec-1 {
+  margin-right: 45px;
+
+}
+
+.rec-2 {
+  margin-right: 45px;
+}
+
+.rec-menu h4 {
+  margin-bottom: 10px;
+}
+
+.rec-menu p {
+  width: 290px;
+  margin-bottom: 100px;
+}
+
+
+/* 店内様子 */
+.content-sub {
+  width: 1180px;
+  height: 1000px;
+  margin: 0 auto;
+  margin-top: 60px;
+  background-image: url(../images/content-4.png);
+  background-repeat: no-repeat;
+}
+
+
+
+.content-sub h2 {
+  padding-top: 150px;
+  margin-left: 150px;
+}
+
+
+.content-sub h2 span {
+  display: inline-block;
+  width: 130px;
+  border-bottom: 1px solid #000;
+  transform: rotate(315deg);
+  margin-left: -100px;
+  margin-top: -100px;
+
+
+
+
+
+
+}
+
+.shop-description {
+  display: flex;
+  justify-content: center;
+  margin-left: 240px;
+  margin-top: 20px;
+
+}
+
+.content-sub p {
+  width: 350px;
+  line-height: 55px;
+  font-size: 20px;
+
+}
+
+/* ホーム予約状況 */
+.reserve {
+  height: 716px;
+  background-color: rgba(114, 226, 226, .4);
+
+
+}
+
+.reserve-2 {
+  width: 954px;
+  margin: 0 auto;
+  padding-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+}
+
+
+.reserve-2 h2 span {
+  display: inline-block;
+  width: 130px;
+  border-bottom: 1px solid #000;
+  transform: rotate(315deg);
+  margin-left: -90px;
+  margin-top: -100px;
+}
+
+.reserve h2 {
+  line-height: 1;
+}
+
+.table {
+  width: 574px;
+  height: 418px;
+  padding-top: 100px;
+}
+
+.table p {
+  border: 1px solid #707070;
+  line-height: 0.5;
+  padding: 5px 5px;
+}
+
+.reserve-next {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* お知らせ */
+.info {
+  width: 954px;
+  margin: 0 auto;
+  padding-top: 116px;
+
+}
+
+.info h2 span {
+  display: inline-block;
+  width: 130px;
+  border-bottom: 1px solid #000;
+  transform: rotate(315deg);
+  margin-left: -90px;
+  margin-top: -100px;
+}
+
+.info ul {
+  width: 716px;
+  height: 214px;
+  font-size: 18px;
+  list-style-type: none;
+  line-height: 2.3;
+  margin: 0 auto;
+
+}
+
+.info h2 {
+  text-align: left;
+  margin-bottom: 77px;
+}
+
+/* もっと見る */
+.info p {
+  text-align: center;
+  margin-left: 400px;
+  margin-bottom: 100px;
+
+}
+
+/* --------------
+メニューページ
+--------------- */
+
+#menu {
+  padding-top: 0;
+}
+
+.menu-top {
+  width: 1341px;
+  margin: 0 auto;
+  height: 440px;
+  background-image: url(../images/menu-img.png);
+  background-repeat: no-repeat;
+  border-bottom: 30px solid #90E2E2;
+  position: relative;
+}
+
+.menu-top h1 {
+  color: #FFF;
+  text-align: center;
+  padding-top: 220px;
+  line-height: 1;
+
+
+}
+
+/* メニュー表 */
+
+.content-n h2 span {
+  display: inline-block;
+  width: 130px;
+  border-bottom: 1px solid #000;
+  transform: rotate(315deg);
+  margin-left: -90px;
+  margin-top: -1000px;
+}
+
+.food-menu {
+  display: flex;
+  justify-content: space-between;
+
+
+}
+
+.food-1 {
+  margin-right: 45px;
+}
+
+.f-price {
+  line-height: 1.6;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+
+.food-menu h4 {
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+.menu-drink {
+  height: 1000px;
+  margin: 0 auto;
+  margin-bottom: 171px;
+  background-color: #E0FFFF;
+
+}
+
+
+
+
+
+.menu-sub {
+  width: 954px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+
+
+}
+
+
+.menu-drink h2 span {
+  display: inline-block;
+  width: 130px;
+  border-bottom: 1px solid #000;
+  transform: rotate(315deg);
+  margin-left: -90px;
+  margin-top: -1000px;
+}
+
+
+.Drink-1 {
+  background-color: #FFF;
+  width: 454px;
+  height: 704px;
+  padding: 55px 64px 0 55px;
+  font-size: 18px;
+
+
+
+}
+
+.Drink-2 {
+  background-color: #FFF;
+  width: 454px;
+  height: 704px;
+  padding: 55px 64px 0 55px;
+  font-size: 18px;
+}
+
+.Drink-left h4 {
+  height: 37px;
+  line-height: 37px;
+  background-color: #F0F0F0;
+}
+
+.Drink-right h4 {
+  height: 37px;
+  line-height: 37px;
+  background-color: #F0F0F0;
+}
+
+.yakuzen {
+  padding: 20px 0 20px 0;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.coffee {
+
+  line-height: 3;
+  display: flex;
+  justify-content: space-between;
+
+
+}
+
+.soft {
+  line-height: 3;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.smoothie {
+  line-height: 3;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.n-content2 {
+  width: 954px;
+  margin: 0 auto;
+  margin-bottom: 77px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+}
+
+.menu-drink h2 {
+  width: 954px;
+  margin: 0 auto;
+  padding-top: 77px;
+  margin-bottom: 77px;
+
+}
+
+.content-n {
+  background-image: url(../images/bb.png);
+  background-repeat: no-repeat;
+  background-position: top;
+
+
+
+}
+
+.content-n h2 {
+  width: 954px;
+  margin: 0 auto;
+  padding-top: 77px;
+  margin-bottom: 77px;
+
+}
+
+
+
+/* -------------- */
+/* ハーブティー */
+/* -------------- */
+
+
+
+.herb-top h1 {
+  color: #FFF;
+  text-align: center;
+  padding-top: 230px;
+  line-height: 1;
+}
+
+.herb-top {
+  width: 1341px;
+  margin: 0 auto;
+  height: 440px;
+  background-image: url(../images/herb.jpg);
+  background-repeat: no-repeat;
+  border-bottom: 30px solid #90E2E2;
+  position: relative;
+}
+
+.herb-menu {
+  width: 954px;
+  margin: 0 auto;
+  margin-bottom: 77px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+
+}
+
+.herb {
+  background-image: url(../images/bb.png);
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.herb h2 {
+  width: 954px;
+  margin: 0 auto;
+  padding-top: 77px;
+  margin-bottom: 77px;
+}
+
+.herb h2 span {
+  display: inline-block;
+  width: 100px;
+  border-bottom: 1px solid #000;
+  transform: rotate(315deg);
+  margin-left: -80px;
+  margin-top: -1000px;
+}
+
+
+
+.herb-1 {
+  margin: 0 auto;
+  margin-bottom: 42px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.herb-2 {
+  margin-right: 25px;
+
+}
+
+.her-3-1 {
+  width: 170px;
+  margin-right: 25px;
+  padding-top: 60px;
+
+}
+
+.her-3-1 h5 {
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.herb-2 p {
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
